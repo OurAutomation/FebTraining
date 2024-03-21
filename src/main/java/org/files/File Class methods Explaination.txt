@@ -1,0 +1,25 @@
+File Inspection:-
+exists(): Returns true if the file or directory denoted by this abstract pathname exists.
+getName(): Returns the name of the file or directory denoted by this abstract pathname.
+getPath(): Converts this abstract pathname into a pathname string.
+getAbsolutePath(): Returns the absolute pathname string of this abstract pathname.
+isDirectory(): Returns true if the file denoted by this abstract pathname is a directory.
+isFile(): Returns true if the file denoted by this abstract pathname is a normal file.
+canRead(): Returns true if the application can read the file denoted by this abstract pathname.
+canWrite(): Returns true if the application can modify the file denoted by this abstract pathname.
+canExecute(): Returns true if the application can execute the file denoted by this abstract pathname.
+length(): Returns the length of the file denoted by this abstract pathname.
+
+File Operations:-
+createNewFile(): Atomically creates a new, empty file named by this abstract pathname if and only if a file with this name does not yet exist.
+delete(): Deletes the file or directory denoted by this abstract pathname.
+renameTo(File dest): Renames the file denoted by this abstract pathname.
+mkdir(): Creates the directory named by this abstract pathname.
+mkdirs(): Creates the directory named by this abstract pathname, including any necessary but nonexistent parent directories.
+
+File Listing:-
+list(): Returns an array of strings naming the files and directories in the directory denoted by this abstract pathname.
+listFiles(): Returns an array of abstract pathnames denoting the files in the directory denoted by this abstract pathname.
+
+File Properties:-
+lastModified(): Returns the time that the file denoted by this abstract pathname was last modified.

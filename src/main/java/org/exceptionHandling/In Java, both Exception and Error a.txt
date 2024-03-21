@@ -1,0 +1,21 @@
+In Java, both Exception and Error are subclasses of the Throwable class, which means they can be thrown and caught (try-catch blocks). However, they serve different purposes and are used in different contexts. Understanding the distinction between them is crucial for effective Java programming and error handling.
+
+Exception:-
+
+Exceptions are issues that can occur during the execution of a program and are recoverable. In other words, an application can anticipate and recover from exceptions, often by prompting the user to correct invalid inputs or by providing fallback solutions. Exceptions are meant to indicate conditions that a reasonable application might want to catch.
+
+Exceptions are divided into two main categories:-
+
+Checked Exceptions: These are exceptions that must be either caught or declared in the method signature using the throws keyword. They extend the Exception class except for the RuntimeException class. Checked exceptions are used for recoverable conditions and encourage programmers to handle exceptions properly. Examples include IOException, SQLException, etc.
+
+Unchecked Exceptions: These extend RuntimeException and are not required to be caught or declared thrown. Unchecked exceptions usually indicate programming errors, such as logic errors or improper use of an API. Examples include NullPointerException, IndexOutOfBoundsException, etc.
+Error
+Errors are serious problems that a reasonable application should not try to catch. Errors are usually associated with the environment in which an application is running rather than the application itself. Catching an Error is typically not advisable because there's usually little an application can do to recover from such a critical problem.
+
+Errors are instances of the Error class or its subclasses. They indicate problems that are generally beyond the control of the programmer and the application, such as system crashes or memory exhaustion. Examples of Error include OutOfMemoryError, StackOverflowError, NoClassDefFoundError, etc.
+
+Key Differences:-
+Intended Use: Exceptions are meant to be caught and handled by the application, while Errors are indicative of serious problems that applications should not attempt to handle.
+Control Flow: Proper handling of exceptions allows a program to continue execution or gracefully terminate, while an error often leads to termination of the program.
+Type: Exceptions can be checked or unchecked, influencing error-handling strategies. Errors are unchecked and usually indicate unrecoverable conditions.
+In summary, exceptions are conditions that your application can try to recover from, while errors indicate serious problems that are typically outside the application's control and not expected to be recovered from. Proper understanding and handling of both can lead to more robust and error-resistant Java applications.

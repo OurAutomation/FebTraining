@@ -1,0 +1,11 @@
+1. create an arraylist for string, long and double, Add some values and print them
+2. Search for given number in arraylist and print true or false
+3. Search for given number in arraylist and print true or false without using contains method
+4. Write a program for containsAll
+5. Create an arraylist and one number. Now add 10th number directly(list.add(10,123667);. Now tell me what will be printed if i call list.get(3)?
+6. In a string list print the length first element
+7. Print the repetitions of the numbers in the list
+8. Check if the given number is duplicated in the list
+9. Print a integer list in descending order
+10. Implement all array assignments using arraylist
+11. Remove duplicates from the list

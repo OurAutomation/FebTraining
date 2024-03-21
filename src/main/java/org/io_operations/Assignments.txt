@@ -1,0 +1,1 @@
+1. Read data from one text file and write it to another text file (delete and create a new file) .
