@@ -19,6 +19,7 @@ public class ReadAndWriteDataFromPropertyFile {
         Properties properties = new Properties();
         properties.load(inStream);
         System.out.println(properties.getProperty("firstname"));
+        System.out.println(properties.getProperty("firstname"));
         HashMap<String, String> keyAndValue = new HashMap<>();
         properties.stringPropertyNames().forEach(e -> {
             keyAndValue.put(e, (String) properties.get(e));
