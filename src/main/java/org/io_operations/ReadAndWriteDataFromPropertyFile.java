@@ -14,12 +14,10 @@ public class ReadAndWriteDataFromPropertyFile {
      * driver.sendKeys(password)*/
     public static void main(String[] args) throws IOException {
         //i am creating a file object for the file data.properties
-        File propertyFile = new File(FileUtilsData.PROJECT_HOME + File.separator + "Data.properties");
+        File propertyFile = new File( File.separator + "Data.properties");
         FileInputStream inStream = new FileInputStream(propertyFile);
         Properties properties = new Properties();
         properties.load(inStream);
-        System.out.println(properties.getProperty("firstname"));
-        System.out.println(properties.getProperty("firstname"));
         HashMap<String, String> keyAndValue = new HashMap<>();
         properties.stringPropertyNames().forEach(e -> {
             keyAndValue.put(e, (String) properties.get(e));
