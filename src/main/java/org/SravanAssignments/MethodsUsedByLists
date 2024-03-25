@@ -1,0 +1,30 @@
+List interface is part of the Java Collections Framework and provides an ordered collection (also known as a sequence) of elements
+add(E element): Appends the specified element to the end of the list.
+
+add(int index, E element): Inserts the specified element at the specified position in the list.
+
+addAll(Collection<? extends E> c): Appends all of the elements in the specified collection to the end of the list, in the order that they are returned by the specified collection's iterator.
+
+addAll(int index, Collection<? extends E> c): Inserts all of the elements in the specified collection into this list at the specified position.
+
+get(int index): Returns the element at the specified position in the list.
+
+set(int index, E element): Replaces the element at the specified position in the list with the specified element.
+
+remove(int index): Removes the element at the specified position in the list.
+
+remove(Object o): Removes the first occurrence of the specified element from the list, if it is present.
+
+indexOf(Object o): Returns the index of the first occurrence of the specified element in the list, or -1 if the list does not contain the element.
+
+lastIndexOf(Object o): Returns the index of the last occurrence of the specified element in the list, or -1 if the list does not contain the element.
+
+size(): Returns the number of elements in the list.
+
+isEmpty(): Returns true if the list contains no elements.
+
+clear(): Removes all of the elements from the list.
+
+contains(Object o): Returns true if the list contains the specified element.
+
+subList(int fromIndex, int toIndex): Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive.

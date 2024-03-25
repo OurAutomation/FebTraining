@@ -8,13 +8,13 @@ import java.util.Map;
 public class HowToIterateFromAMap {
     public static void main(String[] args) {
         List<String> data = new ArrayList<>();
-//        Map<String, String> personalData = new HashMap<>();// Doesn't follow any order
-        Map<String, String> personalData = new LinkedHashMap<>();// follows Insertion order
+//        Map<String, String> personalData = new HashMap<>();
+        Map<String, String> personalData = new LinkedHashMap<>();
         personalData.put("firstname", "Bharghav");
         personalData.put("lastname", "Sravan");
         personalData.put("location", "hyderabad");
-        personalData.put("location", "bangalore");//it will override the value
-        personalData.putIfAbsent("location", "Mumbai");//it will not override the value
+        personalData.put("location", "bangalore");
+        personalData.putIfAbsent("location", "Mumbai");
         //This is using key set and for each loop
         /*Set<String> keySet = personalData.keySet();
         for (String key : keySet) {
