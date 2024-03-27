@@ -6,3 +6,6 @@ linkText
 partialLinkText
 css
 xpath
+
+Hex To RGBA Converter:-
+https://codebeautify.org/hex-to-rgba-converter
