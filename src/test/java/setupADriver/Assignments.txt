@@ -1,0 +1,4 @@
+1. Write testcases for https://www.saucedemo.com/inventory.html;
+2. Practice the selenium commands for youtube.com;
+3. How to fail a testcase in different ways (fail,assertEquals,assertContains,assertTrue,assertFalse);
+4. Implement integer programs package in a single class using testng;
