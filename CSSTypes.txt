@@ -1,0 +1,15 @@
+Basic CSS syntax
+tagName[attributeName=attributeValues]
+
+input[type='text'] == input is tagname, type is the HTML attribute and text is the value
+input[type='text'][placeholder='Username'] == CSS for locating an element with two attributes
+input == CSS for tag name
+[class^='inventory'] == To find elements with class starting with inventory
+[class*='item'] == To find elements with attribute contains. class contains item
+[alt='Sauce Labs Backpack']
+[id="user-name"] or #user-name == to find elements with id
+.input_error == css for class name
+[class="input_error form_input"] or .input_error.form_input == CSS for multiple class names
+[class="input_error form_input"][id="user-name"] or .input_error.form_input#user-name or .input_error#user-name.form_input or #user-name.input_error.form_input
+input:not([type='submit']) == CSS for elements with input tag name but doesn't contain type=submit attribute
+#user-name, #password == To find elements with two different css selectors

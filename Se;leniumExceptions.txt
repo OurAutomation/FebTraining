@@ -1,0 +1,5 @@
+SessionNotCreatedException = When wrong version driver is used
+NoSuchSessionException = If the driver is closed and you try to perform some action this exception occurs
+NoSuchElementException = When driver is not able to find element with given locator. reasons either locator value is wrong or locator value is changed
+org.openqa.selenium.InvalidSelectorException: Compound class names not permitted = when you pass multiple class names in By.classname()
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
